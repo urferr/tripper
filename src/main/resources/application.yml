@@ -46,7 +46,7 @@ embabel:
   tripper:
     word-count: 1200
     image-width: 850
-    max-concurrency: 12
+    max-concurrency: 1
 
     # Anthropic models will give better results but are more expensive
     thinker-llm:
@@ -81,3 +81,5 @@ logging:
     com.embabel.agent.config.models.DockerLocalModels: DEBUG
     com.embabel.agent.web.sse.SSEController: INFO
     com.embabel.agent.tools.mcp: DEBUG
+#    com.embabel.agent: DEBUG
+    io.modelcontextprotocol.client.transport.StdioClientTransport: WARN
