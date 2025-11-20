@@ -171,7 +171,7 @@ internal data class BraveWebSearchResponse(
 }
 
 internal data class WebResults(
-    val results: List<BraveSearchResult>
+    val 	: List<BraveSearchResult>
 )
 
 internal data class BraveNewsSearchResponse(
