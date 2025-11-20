@@ -46,7 +46,7 @@
             <ul style="margin-bottom: 1rem;">
                 <li th:each="stay : ${travelPlan.stays}" style="margin-bottom: 0.5rem;">
                     <a th:href="${stay.airbnbUrl}" target="_blank" rel="noopener noreferrer"><span
-                            th:text="${stay.stayingAt() + ' on Airbnb for ' + stay.days.size() + ' nights'}"></span></a>
+                            th:text="${stay.getStayingAt() + ' on Airbnb for ' + stay.days.size() + ' nights'}"></span></a>
                 </li>
             </ul>
 
