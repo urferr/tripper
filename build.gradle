@@ -1,0 +1,32 @@
+plugins {
+	id 'org.springframework.boot' version '3.5.9'
+	id 'io.spring.dependency-management' version '1.1.7'
+	id 'buildlogic.java-application-conventions'
+}
+
+description = 'Embabel Examples Tavel Planner Project'
+
+dependencies {
+	implementation "com.fasterxml.jackson.core:jackson-annotations"
+
+	implementation "org.springframework.boot:spring-boot"
+	implementation "org.springframework.boot:spring-boot-autoconfigure"
+	implementation "org.springframework.security:spring-security-config"
+	implementation "org.springframework.security:spring-security-oauth2-client"
+
+	implementation "com.embabel.agent:embabel-agent-api"
+	implementation "com.embabel.agent:embabel-agent-platform-autoconfigure"
+
+	runtimeOnly "org.springframework.boot:spring-boot-starter-web"
+    runtimeOnly('org.springframework.boot:spring-boot-starter-thymeleaf')
+    
+	runtimeOnly "com.embabel.agent:embabel-agent-starter"
+	runtimeOnly "com.embabel.agent:embabel-agent-starter-dockermodels"
+	runtimeOnly "com.embabel.agent:embabel-agent-starter-openai"
+	runtimeOnly "com.embabel.agent:embabel-agent-starter-mcpserver"
+
+	testImplementation "com.embabel.agent:embabel-agent-test"
+
+	developmentOnly("org.springframework.boot:spring-boot-devtools")
+    developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
+}
