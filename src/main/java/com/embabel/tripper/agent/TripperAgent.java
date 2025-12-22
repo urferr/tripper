@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.embabel.agent.BraveImageSearchService;
 import com.embabel.agent.api.annotation.AchievesGoal;
 import com.embabel.agent.api.annotation.Action;
 import com.embabel.agent.api.annotation.Agent;
@@ -17,6 +16,7 @@ import com.embabel.agent.api.common.OperationContext;
 import com.embabel.agent.core.CoreToolGroups;
 import com.embabel.agent.prompt.ResponseFormat;
 import com.embabel.common.util.StringTransformer;
+import com.embabel.tripper.BraveImageSearchService;
 import com.embabel.tripper.agent.domain.AcceptanceOfCost;
 import com.embabel.tripper.agent.domain.AirbnbResultsLlmReturn;
 import com.embabel.tripper.agent.domain.Day;

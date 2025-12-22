@@ -1,4 +1,4 @@
-package com.embabel.agent;
+package com.embabel.tripper;
 
 import org.springframework.web.client.RestClient;
 
