@@ -1,4 +1,4 @@
-package com.embabel.agent;
+package com.embabel.tripper;
 
 record BraveWebSearchResponse(WebResults web, Query query) implements BraveResponse {
     @Override

@@ -1,4 +1,4 @@
-package com.embabel.agent;
+package com.embabel.tripper;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
