@@ -21,17 +21,17 @@ repositories {
 //			releasesOnly()
 //		}
 //	}
-	maven {
-		name = 'embabel-snapshots'
-		url = 'https://repo.embabel.com/artifactory/libs-snapshot'
-		mavenContent {
-			snapshotsOnly()
-		}
-	}
+//	maven {
+//		name = 'embabel-snapshots'
+//		url = 'https://repo.embabel.com/artifactory/libs-snapshot'
+//		mavenContent {
+//			snapshotsOnly()
+//		}
+//	}
 }
 
 group = 'com.embabel.example'
-version = '0.3.0'
+version = '0.3.3'
 
 dependencies {
 }
